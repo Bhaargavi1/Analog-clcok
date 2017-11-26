@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = "UTF-8">
+<meta name="HandheldFriendly" content="true">
+<meta name="viewport" content="width=device-width, height=device-height, user-scalable=yes" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel = 'stylesheet' href = 'assets/css/w3css.css'>
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel = 'stylesheet' href = 'assets/css/clock.css'>
+</head>
+<body>
+<div>
+  <svg width = "1350" height = "600">
+      <circle cx="675" cy="305" r="102" fill="none" stroke-width="6" stroke=" #dc9a1f" />
+      <circle cx="675" cy="305" r="94" fill="none" stroke-width="6" stroke=" #dc9a1f" />
+      <circle cx="675" cy="305" r="86" fill="none" stroke-width="6" stroke=" #dc9a1f" />
+      <circle cx="675" cy="305" r="78" fill="#fdffff" stroke-width="3" stroke=" #dc9a1f" />
+      <circle cx="675" cy="305" r="60" fill="#fdffff" stroke-width="2" stroke="lightgray" />
+      <circle cx="675" cy="305" r="8" fill="none" stroke-width="2" stroke="black" />
+      <circle cx="675" cy="305" r="4" fill="grey" stroke-width="2" stroke="black" />
+      <!-- Seconds hand-->
+      <line id="sec" x1="675" y1="305" x2="605" y2="303"stroke="black" stroke-width="2"/>
+      <!-- Minute hand -->
+      <rect id="min"  x="675" y="240" width="2" height="70" rx="3" ry="3" stroke="black" stroke-width="1"/>
+      <!-- Hour Hand -->
+      <rect id="hour"  x="675" y="250"  width="3" height="50" rx="4" ry="4" stroke="black" stroke-width="3"/>
+      <!-- Writing the numbers -->
+      <text x="670" y="241" fill="black" style="font-size:12px;font-weight:bold">12</text>
+      <text x="711" y="255" fill="black" style="font-size:12px;font-weight:bold">1</text>
+      <text x="733" y="280" fill="black" style="font-size:12px;font-weight:bold">2</text>
+      <text x="740" y="312" fill="black" style="font-size:12px;font-weight:bold">3</text>
+      <text x="728" y="347" fill="black" style="font-size:12px;font-weight:bold">4</text>
+      <text x="706" y="369" fill="black" style="font-size:12px;font-weight:bold">5</text>
+      <text x="673" y="378" fill="black" style="font-size:12px;font-weight:bold">6</text>
+      <text x="636" y="369" fill="black" style="font-size:12px;font-weight:bold">7</text>
+      <text x="612" y="344" fill="black" style="font-size:12px;font-weight:bold">8</text>
+      <text x="603" y="308" fill="black" style="font-size:12px;font-weight:bold">9</text>
+      <text x="607" y="275" fill="black" style="font-size:12px;font-weight:bold">10</text>
+      <text x="632" y="250" fill="black" style="font-size:12px;font-weight:bold">11</text>
+      <!-- Completing the Design -->
+      <polygon points="655,202 625,132 675,42 725,132 695,202" style="fill:#8B4513;" />
+      <line  x1="634" y1="210" x2="560" y2="42"stroke="black" stroke-width="2"/>
+      <polygon points="624,218 594,148 504,98 524,208 594,243" style="fill:#8B4513;" />
+      <line  x1="578" y1="262" x2="394" y2="156"stroke="black" stroke-width="2"/>
+      <polygon points="574,325 504,350 384,305 504,250 574,285" style="fill:#8B4513;" />
+      <line  x1="580" y1="346" x2="374" y2="422"stroke="black" stroke-width="2"/>
+      <polygon points="587,360 524,378 448,478 574,450 629,400 " style="fill:#8B4513;" />
+      <line  x1="634" y1="400" x2="560" y2="560"stroke="black" stroke-width="2"/>
+      <polygon points="655,408 625,478 675,568 725,478 695,408" style="fill:#8B4513;" />
+      <line  x1="720" y1="400" x2="780" y2="560"stroke="black" stroke-width="2"/>
+      <polygon points="760,365 840,378 920,478 770,465 728,395" style="fill:#8B4513;" />
+      <line  x1="772" y1="346" x2="960" y2="422"stroke="black" stroke-width="2"/>
+      <polygon points="778,325 840,350 960,305 840,250 778,285" style="fill:#8B4513;" />
+      <line  x1="770" y1="262" x2="940" y2="156"stroke="black" stroke-width="2"/>
+      <polygon points="735,218 755,148 855,98 825,205 765,250" style="fill:#8B4513;" />
+      <line  x1="720" y1="210" x2="780" y2="42"stroke="black" stroke-width="2"/>      
+      
+      
+      
+      
+      
+  </svg>        
+</div>
+</body>
+<script type = 'text/javascript' src = "assets/js/bootstrap_min.js"></script>
+<script type = 'text/javascript' src = "assets/js/jquery.js"></script>
+<script type = 'text/javascript' src = "assets/js/clock.js"></script>
+</html>
